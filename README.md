@@ -6,7 +6,7 @@ Bring WhatsApp, Telegram and SMS into one workspace. Manage conversations, conta
 
 [Android companion](https://github.com/avacodes/postmaster/releases/tag/android-v0.3.0-dev): download **postmaster.apk** for workspace management, SMS sending and authorized Telegram accounts. Android 8.0 or later is required.
 
-[PC sender](https://github.com/avacodes/postmaster/releases/tag/sender-v0.1.0-preview.1): portable Windows x64 and Linux x64 downloads for customer-owned Telegram and WhatsApp accounts. WhatsApp requires Docker. Follow the README inside the archive.
+[PC sender](https://github.com/avacodes/postmaster/releases/tag/sender-v0.1.0-preview.2): portable Windows x64 and Linux x64 downloads for customer-owned Telegram and WhatsApp accounts. WhatsApp requires Docker. Follow the README inside the archive.
 
 Both downloads are previews. Check the accompanying SHA-256 files. Keep the sender device, application, permissions, internet connection and provider session available.
 
