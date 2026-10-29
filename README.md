@@ -25,12 +25,14 @@ Follow the update instructions in each release. Install compatible updates over 
 The single preview SDK requires .NET 8 or later and includes its public request/response models. Create a scoped integration key in your workspace and keep it in your application's server secrets.
 
 ```sh
-dotnet add package avacodes.postmaster --version 0.2.0-preview.2
+dotnet add package avacodes.postmaster --version 0.2.0-preview.3
 ```
 
 Start with the [developer quickstart](https://postmaster.avacodes.org/docs/quickstart), [interactive API reference](https://postmaster.avacodes.org/docs/api-reference), [Postman collection](https://postmaster.avacodes.org/docs/tools), [C# recipes](https://postmaster.avacodes.org/docs/sdk-examples) or [AI guide](https://postmaster.avacodes.org/docs/ai-guide). Integration requests use `https://postmaster.avacodes.org` and bearer authentication, without browser sign-in.
 
 Sending returns a message identifier after the request is saved. Check its later status or receive signed callbacks to track sending and delivery. Reuse the same idempotency key and payload when retrying an interrupted request; do not create a second send to check delivery.
+
+Notification status and callbacks share a version so your application can ignore older updates. SDK errors expose an optional trace ID for support, without storing raw error responses. See the [sending guide](https://postmaster.avacodes.org/docs/sending) and [error reference](https://postmaster.avacodes.org/docs/reference).
 
 [Postmaster website](https://postmaster.avacodes.org) · [Workspace sign in](https://postmaster-app.avacodes.org)
 
